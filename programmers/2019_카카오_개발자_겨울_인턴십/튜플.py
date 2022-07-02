@@ -21,5 +21,5 @@ def solution(s):
         finalAnswer.append(int(countSet[maxNumIndex]))
         countNum[maxNumIndex] = -1  #maxNumber to -1
         
-            
+           
     return finalAnswer
