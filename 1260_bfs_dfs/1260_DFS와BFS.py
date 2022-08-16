@@ -1,5 +1,6 @@
  
-import sys
+#1차 풀이
+ import sys
 from collections import deque
 input=sys.stdin.readline
  
@@ -39,3 +40,10 @@ dfs(start)
 visited=[False]*(n+1)
 print()
 bfs(start)
+
+
+
+#-----------------------------------------------------------------------
+#2차 풀이_22.08.16
+#재풀이 시 발생한 오류 : 런타임 에러 (EOFError)
+#오류 해결 방법 : 
